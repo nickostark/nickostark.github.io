@@ -69,7 +69,7 @@ function App() {
               </a>
 
               <a
-                href="linkedin.com/in/nicko-stark-37a688394"
+                href="https://www.linkedin.com/in/nicko-stark-37a688394"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 p-4 rounded-xl border border-slate-200 hover:border-slate-400 hover:shadow-md transition-all group"
