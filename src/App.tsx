@@ -41,20 +41,20 @@ function App() {
             <h2 className="text-3xl font-semibold text-slate-900 mb-8">Find My Work</h2>
             <div className="grid gap-4 md:grid-cols-2">
               <a
-                href="#newsletter"
+                href="https://nickostark.substack.com"
                 className="flex items-center gap-4 p-4 rounded-xl border border-slate-200 hover:border-slate-400 hover:shadow-md transition-all group"
               >
                 <div className="p-3 bg-slate-100 rounded-lg group-hover:bg-slate-200 transition-colors">
                   <Mail className="w-6 h-6 text-slate-700" />
                 </div>
                 <div>
-                  <div className="font-semibold text-slate-900">Newsletter</div>
+                  <div className="font-semibold text-slate-900">Newsletter (Substack)</div>
                   <div className="text-sm text-slate-600">Published at most 2x a month</div>
                 </div>
               </a>
 
               <a
-                href="https://twitter.com"
+                href="https://x.com/CogniStark"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 p-4 rounded-xl border border-slate-200 hover:border-slate-400 hover:shadow-md transition-all group"
@@ -69,7 +69,7 @@ function App() {
               </a>
 
               <a
-                href="https://linkedin.com"
+                href="linkedin.com/in/nicko-stark-37a688394"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 p-4 rounded-xl border border-slate-200 hover:border-slate-400 hover:shadow-md transition-all group"
@@ -84,7 +84,7 @@ function App() {
               </a>
 
               <a
-                href="https://github.com"
+                href="https://github.com/nickostark"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 p-4 rounded-xl border border-slate-200 hover:border-slate-400 hover:shadow-md transition-all group"
