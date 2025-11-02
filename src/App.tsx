@@ -61,11 +61,11 @@ function App() {
               <p className="text-xl font-semibold text-slate-900 mb-6">What I do At CogniStark</p>
             </div>
             <p className="text-lg text-slate-700 leading-relaxed">
-              Many businesses know they need AI, they just don't know where. That's why I've made CogniStark's mission to help SMBs either find that out,
-              map out a solution and deploy it, or, find out what's not working in their current AI setups and fix it. In short:
+              Many businesses know they need AI, they just don't know where. That's why I've made it CogniStark's mission to help SMBs either find that out,
+              map out a solution and deploy it, or, find out what's not working in their current AI setups and fix it. There are two steps to this:
             </p>
 
-            <div className="space-y-1 text-slate-500">
+            <div className="mt-10 flex flex-col items-center gap-4 text-slate-500">
               <div className="inline-flex items-center gap-3 rounded-full border border-slate-200/70 bg-white/80 px-5 py-3 shadow-sm">
                 <span className="text-xs font-semibold uppercase tracking-[0.3em] text-[#800020]">
                   Discover
@@ -168,7 +168,7 @@ function App() {
             </div>
           </section>
 
-          <section className="bg-white rounded-2xl p-8 md:p-10 shadow-sm border border-slate-200">
+          {/* <section className="bg-white rounded-2xl p-8 md:p-10 shadow-sm border border-slate-200">
             
             <div className="flex items-center justify-center gap-2 text-xs font-medium tracking-[0.1em] text-slate-400">
                   <p className="text-xl font-semibold text-slate-900 mb-6">A bit about me</p>
@@ -177,7 +177,7 @@ function App() {
             <p className="text-lg text-slate-700 leading-relaxed">
               ...
             </p>
-          </section>
+          </section> */}
         </main>
 
         <footer className="mt-16 text-center text-slate-500 text-sm">
