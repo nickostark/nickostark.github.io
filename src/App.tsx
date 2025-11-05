@@ -23,7 +23,7 @@ function App() {
                 Free AI Audit consultation
               </p>
               <a
-                href="https://forms.gle/qzpTdj6epTdE8BrP6"
+                href="https://calendly.com/cognistark/20min"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex w-full items-center justify-center rounded-full bg-slate-900 px-6 py-3 text-sm font-semibold uppercase tracking-[0.2em] text-white shadow-sm transition hover:bg-slate-700"
@@ -61,7 +61,7 @@ function App() {
               <p className="text-xl font-semibold text-slate-900 mb-6">What I do At CogniStark</p>
             </div>
             <p className="text-lg text-slate-700 leading-relaxed">
-              Many businesses know they need AI, they just don't know where. That's why I've made it CogniStark's mission to help SMBs either find that out,
+              Many businesses know they need AI, they just don't know where. That's why I've made it CogniStark's mission to help small and mid-sized businesses (SMBs) either find that out,
               map out a solution and deploy it, or, find out what's not working in their current AI setups and fix it. There are two steps to this:
             </p>
 
