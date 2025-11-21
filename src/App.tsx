@@ -1,4 +1,4 @@
-import { X, Linkedin, Github, Mail, MessageSquare } from 'lucide-react';
+import { X, Linkedin, Github, Mail, MessageSquare, Sparkles } from 'lucide-react';
 
 function App() {
   return (
@@ -171,14 +171,29 @@ function App() {
                 href="https://senja.io/p/nickostark/y6CFdg"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center gap-4 p-4 rounded-xl border border-slate-200 hover:border-slate-400 hover:shadow-md transition-all group md:col-span-2 text-center"
+                className="flex items-center gap-4 p-4 rounded-xl border border-slate-200 hover:border-slate-400 hover:shadow-md transition-all group"
               >
                 <div className="p-3 bg-slate-100 rounded-lg group-hover:bg-slate-200 transition-colors">
                   <MessageSquare className="w-6 h-6 text-slate-700" />
                 </div>
-                <div className="text-center">
+                <div>
                   <div className="font-semibold text-slate-900">What People Are Saying</div>
                   <div className="text-sm text-slate-600">Testimonials & reviews</div>
+                </div>
+              </a>
+
+              <a
+                href="https://huggingface.co/nickostark"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-4 p-4 rounded-xl border border-slate-200 hover:border-slate-400 hover:shadow-md transition-all group"
+              >
+                <div className="p-3 bg-slate-100 rounded-lg group-hover:bg-slate-200 transition-colors">
+                  <Sparkles className="w-6 h-6 text-slate-700" />
+                </div>
+                <div>
+                  <div className="font-semibold text-slate-900">Hugging Face</div>
+                  <div className="text-sm text-slate-600">Models, demos, and spaces</div>
                 </div>
               </a>
             </div>
