@@ -14,24 +14,34 @@ function App() {
               Nicko Stark
             </p>
           </div>
-          <p className="mb-6 text-xl md:text-2xl text-slate-600 uppercase tracking-[0.1em]">
-            Do you want to know where AI can scale your business?
-          </p>
-          <div className="mx-auto mb-12 grid max-w-3xl gap-6 text-left md:grid-cols-2">
-            <div className="rounded-2xl border border-slate-200 bg-white/80 p-6 shadow-sm">
-              <p className="mb-4 text-sm font-medium uppercase tracking-[0.2em] text-slate-500">
-                Free AI Audit consultation
-              </p>
-              <a
-                href="https://calendly.com/cognistark/20min"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex w-full items-center justify-center rounded-full bg-slate-900 px-6 py-3 text-sm font-semibold uppercase tracking-[0.2em] text-white shadow-sm transition hover:bg-slate-700"
-              >
-                Sign me up
-              </a>
+          <div className="mx-auto mb-12 grid gap-6 text-left md:grid-cols-1">
+            <div className="rounded-2xl border border-slate-200 bg-gradient-to-br from-white via-slate-50 to-slate-100 p-8 md:p-10 shadow-lg ring-1 ring-slate-100 md:flex md:items-center md:justify-between md:gap-10">
+              <div className="space-y-4 md:max-w-xl">
+                <div className="flex items-start gap-4">
+                  <span className="mt-1 h-12 w-1 rounded-full bg-[#800020]" aria-hidden />
+                  <p className="text-2xl md:text-3xl font-semibold text-slate-900 leading-tight uppercase tracking-[0.05em]">
+                    How much is inefficiency costing you per month?
+                  </p>
+                </div>
+                <div className="flex gap-3">
+                  <span className="h-1 flex-1 rounded-full bg-slate-200" aria-hidden />
+                  <span className="h-1 w-10 rounded-full bg-slate-300" aria-hidden />
+                </div>
+                {/* <p className="text-sm text-slate-600 leading-relaxed">
+                  Get a ballpark of the resources you lose each month to unnoticed workflow drag
+                </p> */}
+              </div>
+              <div className="mt-6 flex items-center justify-center md:mt-0 md:min-w-[220px]">
+                <a
+                  href="https://calendly.com/cognistark/20min"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center rounded-xl bg-[#800020] px-6 py-5 text-center text-l font-semibold uppercase tracking-[0.2em] text-white shadow-sm transition hover:bg-slate-700">
+                  Get an estimate
+                </a>
+              </div>
             </div>
-            <div className="rounded-2xl border border-slate-200 bg-white/80 p-6 shadow-sm">
+            {/* <div className="rounded-2xl border border-slate-200 bg-white/80 p-6 shadow-sm">
               <p className="mb-4 text-sm font-medium uppercase tracking-[0.2em] text-slate-500">
                 Subscribe to my newsletter
               </p>
@@ -39,20 +49,14 @@ function App() {
                 href="https://nickostark.substack.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex w-full items-center justify-center rounded-full bg-[#800020] px-6 py-3 text-sm font-semibold uppercase tracking-[0.2em] text-white shadow-sm transition hover:bg-[#660019]"
+                className="inline-flex w-full items-center justify-center rounded-full bg-slate-900 px-6 py-3 text-sm font-semibold uppercase tracking-[0.2em] text-white shadow-sm transition hover:bg-[#660019]"
               >
                 Subscribe
               </a>
-            </div>
+            </div> */}
           </div>
 
         </header>
-
-        {/* <div className="text-center mb-20">
-          <p className="text-l md:text-xl font-light text-slate-700 leading-relaxed">
-            Hi! I'm Nicko Stark, and this is CogniStark - an AI consultancy for small/medium businesses.
-          </p>
-        </div> */}
 
         <main className="space-y-16">
           <section className="bg-white rounded-2xl p-8 md:p-10 shadow-sm border border-slate-200">
@@ -67,11 +71,12 @@ function App() {
             </p>
 
             <div className="mt-10 flex flex-col items-center gap-4 text-slate-500">
-              <div className="inline-flex items-center gap-3 rounded-full border border-slate-200/70 bg-white/80 px-5 py-3 shadow-sm">
-                <span className="text-xs font-semibold uppercase tracking-[0.3em] text-[#800020]">
+              <div className="inline-flex items-center gap-3 rounded-full bg-slate-100 px-4 py-2 text-slate-700 shadow-sm">
+                <span className="h-2 w-2 rounded-full bg-[#800020]" aria-hidden />
+                <span className="text-xs font-semibold uppercase tracking-[0.25em] text-slate-800">
                   Discover
                 </span>
-                <span className="text-m md:text-l font-light">
+                <span className="text-sm md:text-base font-medium text-slate-700">
                   Identify AI-shaped gaps
                 </span>
               </div>
@@ -80,11 +85,12 @@ function App() {
                 ↓↓↓↓↓↓
                 <span className="h-px w-16 bg-slate-200" />
               </div>
-              <div className="inline-flex items-center gap-3 rounded-full border border-slate-200/70 bg-white/80 px-5 py-3 shadow-sm">
-                <span className="text-xs font-semibold uppercase tracking-[0.3em] text-[#800020]">
+              <div className="inline-flex items-center gap-3 rounded-full bg-slate-100 px-4 py-2 text-slate-700 shadow-sm">
+                <span className="h-2 w-2 rounded-full bg-[#800020]" aria-hidden />
+                <span className="text-xs font-semibold uppercase tracking-[0.25em] text-slate-800">
                   Build
                 </span>
-                <span className="text-m md:text-l font-light">
+                <span className="text-sm md:text-base font-medium text-slate-700">
                   Prototype → Deploy → Maintain
                 </span>
               </div>
@@ -96,11 +102,34 @@ function App() {
             <div className="flex items-center justify-center gap-2 text-xs font-medium uppercase tracking-[0.4em] text-slate-400">
               <p className="text-xl font-semibold text-slate-900 mb-6">What I Write in CogniStark</p>
             </div>
-            
-            <p className="text-lg text-slate-700 leading-relaxed">
-              How AI thinks, how we should think <em>with</em> it, not <em>through</em> it,
-              and what that looks like in practice.
-            </p>
+            <div className="mx-auto max-w-2xl text-center space-y-4">
+              <p className="text-lg text-slate-800 leading-relaxed font-semibold">
+                How we should think with AI, not through it.
+              </p>
+              <p className="text-base text-slate-600 leading-relaxed">
+                Get bi-weekly breakdowns on AI, automation, and critical thinking
+              </p>
+              <div className="flex items-center justify-center gap-3 text-xs uppercase tracking-[0.25em] text-[#800020] font-semibold">
+                <span className="inline-flex items-center gap-2 rounded-full bg-slate-100 px-4 py-2 text-slate-700 shadow-sm">
+                  <span className="h-2 w-2 rounded-full bg-[#800020]" />
+                  Actionable
+                </span>
+                <span className="inline-flex items-center gap-2 rounded-full bg-slate-100 px-4 py-2 text-slate-700 shadow-sm">
+                  <span className="h-2 w-2 rounded-full bg-[#800020]" />
+                  2x a month
+                </span>
+              </div>
+            </div>
+            <div className="mt-10 flex justify-center">
+              <a
+                href="https://nickostark.substack.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center rounded-xl bg-[#800020] px-6 py-5 text-center text-l font-semibold uppercase tracking-[0.2em] text-white shadow-sm transition hover:bg-slate-700"
+              >
+                Subscribe
+              </a>
+            </div>
           </section>
 
           <section className="bg-white rounded-2xl p-8 md:p-10 shadow-sm border border-slate-200">
