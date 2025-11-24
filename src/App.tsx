@@ -239,16 +239,16 @@ function App() {
                   <div className="space-y-2">
                     <p className="text-xs uppercase tracking-[0.12em] text-slate-200 text-center md:text-left">Playbooks</p>
                     <div className="grid gap-2">
-                      <a href="https://sage-party-f46.notion.site/Welcome-d156d6d997544fee9b7b97c250be62a3" className="inline-flex min-w-[170px] items-center justify-center gap-2 rounded-xl border border-white/15 bg-white/10 px-4 py-2 text-slate-50 hover:border-white/30 hover:shadow-md transition">
+                      <a href="https://sage-party-f46.notion.site/Welcome-d156d6d997544fee9b7b97c250be62a3" className="inline-flex min-w-[170px] items-center justify-center gap-2 rounded-xl border border-white/15 bg-white/10 px-4 py-9 text-slate-50 hover:border-white/30 hover:shadow-md transition">
                         <div className="text-sm font-normal">
                           SANE <span className="text-xs text-slate-200/80">(AI Response Verification Prompts)</span>
                         </div>
                       </a>
-                      <a href="#" className="inline-flex min-w-[170px] items-center justify-center gap-2 rounded-xl border border-white/15 bg-white/10 px-4 py-2 text-slate-50 hover:border-white/30 hover:shadow-md transition">
+                      {/* <a href="#" className="inline-flex min-w-[170px] items-center justify-center gap-2 rounded-xl border border-white/15 bg-white/10 px-4 py-2 text-slate-50 hover:border-white/30 hover:shadow-md transition">
                         <div className="text-sm font-normal">
                           XFactor <span className="text-xs text-slate-200/80">(Playbook)</span>
                         </div>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
