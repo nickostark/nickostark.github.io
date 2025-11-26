@@ -13,6 +13,9 @@ function App() {
             <h1 className="text-6xl md:text-5xl font-bold text-slate-700 tracking-tight">
               CogniStark
             </h1>
+            {/* <p className="mt-2 text-s md:text-l font-normal text-slate-600 tracking-[0.12em] uppercase">
+              Your AI Opportunity Scanner
+            </p> */}
           </div>
           <div className="relative overflow-hidden rounded-3xl border border-slate-900/10 bg-gradient-to-br from-slate-900 via-slate-800 to-[#3c0c1d] px-8 py-10 shadow-2xl ring-1 ring-white/10">
             <div
