@@ -102,35 +102,39 @@ function App() {
                   without introducing new inefficiencies, and based on their operations data
                   <span className="h-px flex-1 bg-white/10" />
                 </div>
-                {/* <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-5 md:p-6 text-slate-50 shadow-inner">
-                  <div
-                    className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_8%_20%,rgba(255,255,255,0.06),transparent_30%),radial-gradient(circle_at_92%_24%,rgba(255,255,255,0.08),transparent_28%)]"
-                    aria-hidden
-                  />
-                  <div className="relative flex flex-col md:flex-row md:items-center gap-6 md:gap-8">
-                    <div className="flex flex-col sm:flex-row sm:items-center gap-3 md:w-[42%] text-center md:items-center">
-                      <span className="flex h-10 px-4 items-center justify-center rounded-xl border border-white/20 bg-white/10 text-[10px] font-normal uppercase tracking-[0.26em] text-slate-50 shadow-sm">
-                        Discover
-                      </span>
-                      <p className="text-sm md:text-base font-normal text-slate-100/90 leading-snug text-center">
-                        Identify AI-shaped gaps
-                      </p>
-                    </div>
-                    <div className="flex items-center gap-2 self-center text-slate-100">
-                      <span className="h-px w-10 bg-white/25 md:w-12" />
-                      <span className="text-lg font-normal">→</span>
-                      <span className="h-px w-10 bg-white/25 md:w-12" />
-                    </div>
-                    <div className="flex flex-col sm:flex-row sm:items-center gap-3 md:w-[42%] text-center md:items-center">
-                      <span className="flex h-10 px-4 items-center justify-center rounded-xl border border-white/20 bg-white/10 text-[10px] font-normal uppercase tracking-[0.26em] text-slate-50 shadow-sm">
-                        Build
-                      </span>
-                      <p className="text-sm md:text-base font-normal text-slate-100/90 leading-snug text-center">
-                        Prototype → Deploy → Maintain
-                      </p>
-                    </div>
+
+                <div className="rounded-2xl border border-white/10 bg-white/5 p-4 md:p-5 shadow-inner backdrop-blur-sm">
+                  <div className="flex items-center justify-center gap-2 text-[15px] font-semibold uppercase tracking-[0.22em] text-slate-200 mb-3">
+                    <span className="h-px w-10 bg-white/20" />
+                    Steps taken
+                    <span className="h-px w-10 bg-white/20" />
                   </div>
-                </div> */}
+                  <div className="grid gap-3 md:grid-cols-2">
+                    {[
+                      { title: 'Assess Current State', note: 'Record a baseline' },
+                      { title: 'Quantify Impact', note: 'Cost of inaction/inefficiencies' },
+                      { title: 'Identify AI opportunities', note: 'AI-shaped gaps + ROI validation' },
+                      { title: 'Deliver solutions', note: 'Recommendations → POC → Deployment → Comparison to baseline' },
+                    ].map((step, index) => (
+                      <div
+                        key={step.title}
+                        className="flex items-start gap-3 rounded-xl border border-white/10 bg-white/5 px-4 py-3 shadow-sm"
+                      >
+                        <span className="flex h-8 w-8 items-center justify-center rounded-full bg-white/10 text-sm font-semibold text-[#fbde9c]">
+                          {index + 1}
+                        </span>
+                        <div className="space-y-1">
+                          <p className="text-sm md:text-base font-semibold text-slate-50 leading-tight">
+                            {step.title}
+                          </p>
+                          <p className="text-xs md:text-sm text-slate-200/80 leading-snug">
+                            {step.note}
+                          </p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
               </div>
             </div>
           </section>
