@@ -75,31 +75,31 @@ function App() {
               />
               <div className="relative space-y-6">
                 <p className="text-base md:text-lg font-normal tracking-[0.18em] text-slate-100 text-center">
-                  I help founders answer three questions 
+                  I help founders answer two questions 
                 </p>
-                <div className="grid gap-3 md:grid-cols-3">
-                  <div className="flex items-start gap-3 rounded-xl border border-white/10 bg-white/5 p-4 shadow-sm backdrop-blur-sm">
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div className="flex items-start gap-3 rounded-xl border border-white/10 bg-white/5 p-5 md:p-6 shadow-sm backdrop-blur-sm">
                     <span className="mt-1.5 h-2.5 w-2.5 rounded-full bg-[#f59f85]" aria-hidden />
-                    <p className="text-sm md:text-base font-normal leading-snug">
-                      Where&apos;s my time and money being wasted?
+                    <p className="text-base md:text-lg font-normal leading-snug">
+                      Where&apos;s my money and my team&apos;s time being wasted?
                     </p>
                   </div>
-                  <div className="flex items-start gap-3 rounded-xl border border-white/10 bg-white/5 p-4 shadow-sm backdrop-blur-sm">
+                  {/* <div className="flex items-start gap-3 rounded-xl border border-white/10 bg-white/5 p-4 shadow-sm backdrop-blur-sm">
                     <span className="mt-1.5 h-2.5 w-2.5 rounded-full bg-[#fbde9c]" aria-hidden />
                     <p className="text-sm md:text-base font-normal leading-snug">
                       Can my team do less manual repetitive work?
                     </p>
-                  </div>
-                  <div className="flex items-start gap-3 rounded-xl border border-white/10 bg-white/5 p-4 shadow-sm backdrop-blur-sm">
+                  </div> */}
+                  <div className="flex items-start gap-3 rounded-xl border border-white/10 bg-white/5 p-5 md:p-6 shadow-sm backdrop-blur-sm">
                     <span className="mt-1.5 h-2.5 w-2.5 rounded-full bg-[#b2f5ea]" aria-hidden />
-                    <p className="text-sm md:text-base font-normal leading-snug">
-                      Is there a practical way to fix it, and does AI help?
+                    <p className="text-base md:text-lg font-normal leading-snug">
+                      Does AI/automation help? What are my options?
                     </p>
                   </div>
                 </div>
                 <div className="flex items-center gap-3 text-sm md:text-base font-normal tracking-[0.18em] text-slate-100 text-center">
                   <span className="h-px flex-1 bg-white/10" />
-                  without introducing new inefficiencies, and based on their operations data
+                  And move to implementation only if ROI &gt; threshold
                   <span className="h-px flex-1 bg-white/10" />
                 </div>
 
