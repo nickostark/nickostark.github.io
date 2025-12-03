@@ -1,4 +1,4 @@
-import { X, Linkedin, Github, Mail, MessageSquare, Sparkles } from 'lucide-react';
+import { X, Linkedin, Github, Mail, MessageSquare } from 'lucide-react';
 
 function App() {
   return (
@@ -277,8 +277,16 @@ function App() {
           </section> */}
         </main>
 
-        <footer className="mt-16 text-center text-slate-500 text-sm">
-          <p>© 2025 CogniStark. This page’s code is open-sourced on my GitHub.</p>
+        <footer className="mt-16 text-center text-slate-500 text-sm space-y-1">
+          <p>© 2025 CogniStark. This page’s code is open-sourced on GitHub.</p>
+          <p>
+            <a
+              href="mailto:contact@cognistark.com"
+              className="text-slate-600 hover:text-slate-800 underline decoration-slate-400/70 hover:decoration-slate-700 transition"
+            >
+              contact@cognistark.com
+            </a>
+          </p>
         </footer>
       </div>
     </div>
